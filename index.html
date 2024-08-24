@@ -1,0 +1,1150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bpy's Creation</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+     <!----===== Boxicons CSS ===== -->
+     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/Style.css" />
+    <link rel="icon" type="icon"  href="/images/2-removebg-preview.png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.css"
+    />
+  </head>
+
+  <body> 
+    <!-- Title -->
+
+    <section id="title" class="bgh" >
+      <!-- here add any of design -->
+      
+      <nav class="sidebar close" >
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="/images/icons.png" alt="no icon logo">
+                </span>
+                <div class="text logo-text">
+                    <span class="name">BPY'S CREATION</span>
+                    <span class="profession">Digital Marketing</span>
+                </div>
+            </div>
+            <i class='bx bx-chevron-right bg-primary toggle'></i>
+        </header>
+        <div class="menu-bar">
+            <div class="menu">
+                <li class="search-box">
+                    <i class='bx bx-search icon'></i>
+                    <input type="text" placeholder="Search...">
+                </li>
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-home-alt icon' ></i>
+                            <span class="text nav-text">Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#features">
+                          <i class='bx bx-rocket icon'></i>
+                            <span class="text nav-text">Features</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#testimonial">
+                          <i class='bx bx-briefcase icon'></i>
+                            <span class="text nav-text">Notifications</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#project">
+                          <i class='bx bx-book-content icon'></i>
+                            <span class="text nav-text">Project Blog</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#chatbot">
+                          <i class='bx bx-chat icon'></i>
+                            <span class="text nav-text"> AI Chatbot</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#pricing">
+                          <i class='bx bx-dollar icon'></i>
+                            <span class="text nav-text">Pricing</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                      <a href="#Get">
+                        <i class='bx bx-envelope icon'></i>
+                          <span class="text nav-text">Get In Touch</span>
+                      </a>
+                  </li>
+                </ul>
+            </div>
+            <div>
+              <li  id="createAccountBtn" >
+                <a>
+                  <i class='bx bx-user-plus icon'></i>
+                    <span class="text nav-text">signup</span>
+                </a>
+            </li>
+              <li   id="loginUser">
+                <i class='bx bx-user icon'></i>
+                    <span class="text nav-text">Login</span>
+                </a>
+            </li>
+                <li>
+                    <a>
+                      <i class='bx bx-log-out icon'></i>
+                        <span class="text nav-text">Logout</span>
+                    </a>
+                </li>
+            </div>
+        </div>
+    </nav>
+ 
+    </form>
+    </div>
+    </div>
+    <!-- login -->
+    <div id="loginForm" class="form-container">
+      <div class="card">
+      <img src="images/login.gif" class="card-img-top" alt="Fissure in Sandstone"/>
+      <div class="card-body">
+      <form class="form-content p-4 shadow">
+      <h3 class="mb-4">Login</h3>
+      <div class="form-group">
+      <label for="username">Username</label>
+      <input type="text" class="form-control" id="username" placeholder="Enter username">
+      </div>
+    
+      <div class="form-group">
+      <label for="password">Password</label>
+      <input type="password" class="form-control" id="password" placeholder="Password">
+      </div>
+      <button type="submit" id="signup" class="btn btn-success btn-block">Sign Up</button>
+      </form>
+      </div>
+      </div>
+      </div>
+      
+     <!-- signup -->
+    <div id="accountForm" class="form-container">
+    <div class="card">
+    <img src="/images/signup.gif" class="card-img-top" alt="Fissure in Sandstone"/>
+    <div class="card-body">
+    <form class="form-content p-4 shadow">
+    <h3 class="mb-4">Create Account</h3>
+    <div class="form-group">
+    <label for="username">Username</label>
+    <input type="text" class="form-control" id="username" placeholder="Enter username">
+    </div>
+    <div class="form-group">
+    <label for="email">Email address</label>
+    <input type="email" class="form-control" id="email" placeholder="Enter email">
+    </div>
+    <div class="form-group">
+    <label for="password">Password</label>
+    <input type="password" class="form-control" id="password" placeholder="Password">
+    </div>
+    <button type="submit" id="signup" class="btn btn-success btn-block">Sign Up</button>
+    </form>
+    </div>
+    </div>
+    </div>
+    
+        <div class="container col-xxl-8 px-4 pt-5 pb-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 pt-5 pb-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            
+            <img
+              src="./images/bgdesign.gif"
+              class="d-block mx-lg-5 mb-xl-6 mt-xl-6 img-fluid iart"
+              alt="Bootstrap Themes"
+              height="800"
+              loading="lazy"
+            />
+            <img
+            class="al"
+            src="./images/icons.png"
+            class="d-block mx-lg-5 mb-xl-6 mt-xl-6 img-fluid iart"
+            alt="Bootstrap Themes"
+            height="800"
+            loading="lazy"
+          />
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+              Welcome to our Bpy's creation.
+            </h1>
+            <h5 style="color: #C7CCD9;" >Your Partner in Exceptional Website Creation</h5>
+
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-light btn-lg px-4 me-md-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-apple mb-1"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"
+                  />
+                  <path
+                    d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"
+                  />
+                </svg>
+                Download
+              </button>
+              <button type="button" class="btn btn-outline-white text-white btn-lg px-4">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-google-play mb-1"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96 2.694-1.586Zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055l7.294-4.295ZM1 13.396V2.603L6.846 8 1 13.396ZM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27Z"
+                  />
+                </svg>
+                Download
+              </button>
+            </div>
+          </div>
+        </div>
+       
+         </div>
+        </div>
+      </div>
+  
+    </section>
+
+
+    <!-- Features -->
+    <section id="features">
+      <div class="container mt-5">
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="30"
+                fill="currentColor"
+                class="bi bi-check2-circle"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z"
+                />
+                <path
+                  d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z"
+                />
+              </svg>
+            </div>
+            <div>
+              <h3 class="fs-2">Easy to Access.</h3>
+              <p>
+                We believe that a great website should be easy to access and
+                navigate for all users. Our commitment to user-friendly design
+                ensures that our websites provide an intuitive and seamless
+                experience for every visitor.
+              </p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="30"
+                fill="currentColor"
+                class="bi bi-mortarboard"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5ZM8 8.46 1.758 5.965 8 3.052l6.242 2.913L8 8.46Z"
+                />
+                <path
+                  d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46l-3.892-1.556Z"
+                />
+              </svg>
+            </div>
+            <div>
+              <h3 class="fs-2">Elite Clientele.</h3>
+              <p>
+                We pride ourselves on catering to an elite clientele who demand
+                nothing but the best. Our website solutions are designed to meet
+                the unique needs and high standards of our distinguished
+                clients.
+              </p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="30"
+                fill="currentColor"
+                class="bi bi-arrow-through-heart"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M2.854 15.854A.5.5 0 0 1 2 15.5V14H.5a.5.5 0 0 1-.354-.854l1.5-1.5A.5.5 0 0 1 2 11.5h1.793l.53-.53c-.771-.802-1.328-1.58-1.704-2.32-.798-1.575-.775-2.996-.213-4.092C3.426 2.565 6.18 1.809 8 3.233c1.25-.98 2.944-.928 4.212-.152L13.292 2 12.147.854A.5.5 0 0 1 12.5 0h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.854.354L14 2.707l-1.006 1.006c.236.248.44.531.6.845.562 1.096.585 2.517-.213 4.092-.793 1.563-2.395 3.288-5.105 5.08L8 13.912l-.276-.182a21.86 21.86 0 0 1-2.685-2.062l-.539.54V14a.5.5 0 0 1-.146.354l-1.5 1.5Zm2.893-4.894A20.419 20.419 0 0 0 8 12.71c2.456-1.666 3.827-3.207 4.489-4.512.679-1.34.607-2.42.215-3.185-.817-1.595-3.087-2.054-4.346-.761L8 4.62l-.358-.368c-1.259-1.293-3.53-.834-4.346.761-.392.766-.464 1.845.215 3.185.323.636.815 1.33 1.519 2.065l1.866-1.867a.5.5 0 1 1 .708.708L5.747 10.96Z"
+                />
+              </svg>
+            </div>
+            <div>
+              <h3 class="fs-2">Guaranteed to work.</h3>
+              <p>
+                "Our Commitment to Your Success" We understand that reliability
+                and effectiveness are paramount to your business success. That's
+                why we stand behind our services and products with a solid
+                guarantee: they are "Guaranteed to Work."
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Admin patners -->
+    <section id="Admin patner's">
+      <div class="container">
+        <div class="containers" type="button"  data-bs-toggle="modal" data-bs-target="#tableModal">
+          <a  class="button type--A">
+            <div class="button__line"></div>
+            <div class="button__line"></div>
+            <span class="button__text">Our Member's</span>
+            <div class="button__drow1"></div>
+            <div class="button__drow2"></div>
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill badge-success">
+              +3
+              <span class="visually-hidden">Unread Notification</span>
+          </a>
+      </div>
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="tableModal"
+        tabindex="-1"
+        aria-labelledby="tableModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="tableModalLabel">Employee Details</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <div class="table-responsive">
+                <table class="table align-middle mb-0 bg-white">
+                  <thead class="bg-light">
+                    <tr>
+                      <th>Name</th>
+                      <th>Title</th>
+                      <th>Status</th>
+                      <th>Position</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <div class="d-flex align-items-center">
+                          <img
+                            src="/images/IMG_1897.PNG"
+                            alt=""
+                            style="width: 40px; height: 45px"
+                            class="rounded-circle"
+                          />
+                          <div class="ms-3">
+                            <p class="fw-bold mb-1">BOOPATHY E</p>
+                            <p class="text-muted mb-0">
+                              boopathy1865@gmail.com
+                            </p>
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <p class="fw-normal mb-1">Mern Stack Developer</p>
+                        <p class="text-muted mb-0">IT department</p>
+                      </td>
+                      <td>
+                        <span class="badge badge-success rounded-pill d-inline"
+                          >Active</span
+                        >
+                      </td>
+                      <td>Admin</td>
+                      <!-- <td>
+                                            <button type="button" class="btn btn-link btn-sm btn-rounded">Edit</button>
+                                        </td> -->
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="d-flex align-items-center">
+                          <img
+                            src="https://mdbootstrap.com/img/new/avatars/6.jpg"
+                            class="rounded-circle"
+                            alt=""
+                            style="width: 45px; height: 45px"
+                          />
+                          <div class="ms-3">
+                            <p class="fw-bold mb-1">Alex Ray</p>
+                            <p class="text-muted mb-0">alex.ray@gmail.com</p>
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <p class="fw-normal mb-1">Consultant</p>
+                        <p class="text-muted mb-0">Finance</p>
+                      </td>
+                      <td>
+                        <span class="badge badge-primary rounded-pill d-inline"
+                          >Onboarding</span
+                        >
+                      </td>
+                      <td>Junior</td>
+                      <!-- <td>
+                                            <button type="button" class="btn btn-link btn-rounded btn-sm fw-bold" data-mdb-ripple-color="dark">Edit</button>
+                                        </td> -->
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="d-flex align-items-center">
+                          <img
+                            src="https://mdbootstrap.com/img/new/avatars/7.jpg"
+                            class="rounded-circle"
+                            alt=""
+                            style="width: 45px; height: 45px"
+                          />
+                          <div class="ms-3">
+                            <p class="fw-bold mb-1">Kate Hunington</p>
+                            <p class="text-muted mb-0">
+                              kate.hunington@gmail.com
+                            </p>
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <p class="fw-normal mb-1">Designer</p>
+                        <p class="text-muted mb-0">UI/UX</p>
+                      </td>
+                      <td>
+                        <span class="badge badge-warning rounded-pill d-inline"
+                          >Awaiting</span
+                        >
+                      </td>
+                      <td>Senior</td>
+                      <!-- <td>
+                                            <button type="button" class="btn btn-link btn-rounded btn-sm fw-bold" data-mdb-ripple-color="dark">Edit</button>
+                                        </td> -->
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="d-flex align-items-center">
+                          <img
+                            src="/images/mohn.jpg"
+                            alt=""
+                            style="width: 45px; height:50px"
+                            class="rounded-circle"
+                          />
+                          <div class="ms-3">
+                            <p class="fw-bold mb-1">Mohan prasad</p>
+                            <p class="text-muted mb-0">mohan224@gmail.com</p>
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <p class="fw-normal mb-1">Graphics Designer</p>
+                        <p class="text-muted mb-0">IT department</p>
+                      </td>
+                      <td>
+                        <span class="badge badge-success rounded-pill d-inline"
+                          >Active</span
+                        >
+                      </td>
+                      <td>Senior</td>
+                      <!-- <td>
+                                          <button type="button" class="btn btn-link btn-sm btn-rounded">Edit</button>
+                                      </td> -->
+                    </tr>
+                  
+                    <tr>
+                      <td>
+                        <div class="d-flex align-items-center">
+                          <img
+                            src="/images/san.jpg"
+                            alt=""
+                            style="width: 35px; height: 45px"
+                            class="rounded-circle"
+                          />
+                          <div class="ms-3">
+                            <p class="fw-bold mb-1">Santhosh Kumar</p>
+                            <p class="text-muted mb-0">
+                              santhoshMarley123@gmail.com
+                            </p>
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <p class="fw-normal mb-1">Software Tester</p>
+                        <p class="text-muted mb-0">IT department</p>
+                      </td>
+                      <td>
+                        <span class="badge badge-success rounded-pill d-inline"
+                          >Active</span
+                        >
+                      </td>
+                      <td>Senior</td>
+                      <!-- <td>
+                              <button type="button" class="btn btn-link btn-sm btn-rounded">Edit</button>
+                          </td> -->
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonial -->
+
+    <section id="testimonial" >
+      <div class="my-6">
+        <div class="p-5 text-center bg-body-tertiary">
+          <div class="container py-5">
+            <h2 class="text-body-emphasis">
+              "Crafting Digital Experiences that Captivate and Convert."
+            </h2>
+            <p>
+              In today's digital age, a well-designed website is essential for
+              any business aiming to establish a strong online presence and
+              engage effectively with its audience. Our website creation
+              services are tailored to meet the unique needs of each client,
+              ensuring a perfect blend of aesthetics, functionality, and user
+              experience.
+            </p>
+            
+            <img 
+              src="./images/Homes.png"
+              class="d-block mx-lg-auto mb-xxl-5 mt-xxl-5 img-fluid "
+              alt="Bootstrap Themes"
+              height="500"
+              loading="lazy"
+            />
+          </div>
+
+          <div class="container mt--1">
+            <div class="row">
+              <div class="col-lg-3 col-sm-12">
+                <img src="images/_1 cc .png" alt="techcrunch" height="137.5" />
+              </div>
+              <div class="col-lg-3 col-sm-12">
+                <img src="images/2 cc.png" alt="mashable" height="137.5" />
+              </div>
+              <div class="col-lg-3 col-sm-12">
+                <img src="images/3cc.png" alt="bizinsider" height="137.5" />
+              </div>
+              <div class="col-lg-3 col-sm-12">
+                <img src="images/4cc.png" alt="tnw" height="137.5" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+<!-- project section  -->
+
+    <div class="container my-1 py-100" id="project" >
+      <!--Section: Design Block-->
+      <nav class="navbar  navbar-light  rounded-7 ">
+        <!-- Container wrapper -->
+        <div class="container-fluid theme rounded-7">
+          <!-- Toggle button -->
+          <button
+            class="navbar-toggler px-0"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Collapsible wrapper -->
+       
+              <!-- Navbar dropdown -->
+              <li class="nav-item dropdown position-static  ">
+                <a
+                  class="nav-link "
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <span> Project Blogs</span>
+                </a>
+                <!-- Dropdown menu -->
+                <div
+                  class="dropdown-menu w-100 mt-5 "
+                  aria-labelledby="navbarDropdown"
+                  style="border-top-left-radius: 0; border-top-right-radius: 0"
+                >
+                  <div class="container">
+                    <div class="row my-4">
+                      <div class="col-md-4 mb-4 mb-md-0">
+                        <p class="text-uppercase font-weight-bold">
+                          School Admission
+                        </p>
+                        <div
+                          class="bg-image hover-overlay shadow-1-strong rounded ripple mb-4"
+                          data-mdb-ripple-color="blur"
+                        >
+                          <img
+                            src="images/gifpx.gif"
+                            class="img-fluid"
+                          />
+                          <a href="#!">
+                            <div
+                              class="mask"
+                              style="
+                                background-color: rgba(251, 251, 251, 0.15);
+                              "
+                            ></div>
+                          </a>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                          <a  class="text-primary"    href="https://github.com/Boopathy-416">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                            </svg>
+                            <i class="fas fa-plane pe-1"></i>School Website</a
+                          >
+                          <p><u>15.08.2024</u></p>
+                        </div>
+                        <a href="" class="text-dark">
+                          <h5>Subash Matric Higher Secondary School .</h5>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Odit, iste aliquid. Sed id nihil magni, sint
+                            vero provident esse numquam perferendis ducimus
+                            dicta adipisci iusto nam temporibus modi animi
+                            laboriosam?
+                          </p>
+                        </a>
+                      </div>
+                      <div class="col-md-4 mb-4 mb-md-0">
+                        <p class="text-uppercase font-weight-bold">
+                          Students Well Known System
+                        </p>
+                        <div
+                          class="bg-image hover-overlay shadow-1-strong rounded ripple mb-4"
+                          data-mdb-ripple-color="light"
+                        >
+                          <img
+                            src="images/skw.gif"
+                            class="img-fluid"
+                          />
+                          <a href="#!">
+                            <div
+                              class="mask"
+                              style="
+                                background-color: rgba(251, 251, 251, 0.15);
+                              "
+                            ></div>
+                          </a>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                          <a  href="" class="text-primary"    href="https://github.com/Boopathy-416">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                            </svg>
+                            <i class="fas fa-chart-pie pe-1"></i>Data
+                            Analytics</a
+                          >
+                          <p><u>11.03.2024</u></p>
+                        </div>
+                        <a href="" class="text-dark">
+                          <h5>College Analytical Blogs</h5>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Odit, iste aliquid. Sed id nihil magni, sint
+                            vero provident esse numquam perferendis ducimus
+                            dicta adipisci iusto nam temporibus modi animi
+                            laboriosam?
+                          </p>
+                        </a>
+                      </div>
+                      <div class="col-md-4">
+                        <p class="text-uppercase font-weight-bold">
+                          Fresh mart
+                        </p>
+                        <div
+                          class="bg-image hover-overlay shadow-1-strong rounded ripple mb-4"
+                          data-mdb-ripple-color="light"
+                        >
+                          <img
+                            src="images/fresh mart.gif"
+                        
+                            class="img-fluid"
+                          />
+                          <a href="#!">
+                            <div
+                              class="mask"
+                              style="
+                                background-color: rgba(251, 251, 251, 0.15);
+                              "
+                            ></div>
+                          </a>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                          <a href="" class="text-primary"    href="https://github.com/Boopathy-416">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                          </svg>
+                          <i class="fas fa-code pe-1"></i>E-Commernce</a
+                          >
+                          <p><u>25.07.2024</u></p>
+                        </div>
+                        <a href="" class="text-dark">
+                          <h5>Fresh Vegetables Shopping</h5>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Odit, iste aliquid. Sed id nihil magni, sint
+                            vero provident esse numquam perferendis ducimus
+                            dicta adipisci iusto nam temporibus modi animi
+                            laboriosam?
+                          </p>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+           
+          </div>
+          
+        </div>
+       
+      </nav>
+    </div>
+ 
+    <!-- chatbot service -->
+      <!-- chatbot -->        
+      <section style="background-color: none; position: relative;" id="chatbot" >
+        <div class="container my-5 py-5">
+          <div class="row d-flex justify-content-center">
+            <div class="col-12 col-md-10 col-lg-8">
+              <div class="card">
+                <div class="card-body" style=" border: 0px ; background: unset; 
+               background-image: url(images/ok.png); ">
+                  <div class="d-flex flex-start align-items-center">
+                    <img class="rounded-circle shadow-1-strong me-3"
+                         src="/images/boy to.gif" alt="avatar" width="60"
+                         height="67" />
+                    <div>
+                      <h6 class="fw-bold text-primary mb-1">Hi, I'm Chatbot</h6>
+                      <p class="text-muted small mb-0">BPY's Creation - Aug 2024</p>
+                    </div>
+                  </div>
+      
+                  <p class="mt-3 mb-4 pb-2 t ">
+                    "Revolutionize Your Customer Experience with Our Cutting-Edge AI
+                    Chatbot Solution"
+                  </p>
+      
+                  <div class="small d-flex justify-content-start flex-wrap">
+                    <a href="#!" class="d-flex align-items-center me-3 mb-2">
+                      <i class="far fa-thumbs-up me-2"></i>
+                      <p class="mb-0 text-success ">Conversational</p>
+                    </a>
+                    <a href="#!" class="d-flex align-items-center me-3 mb-2">
+                      <i class="far fa-comment-dots me-2"></i>
+                      <p class="mb-0 text-success ">Automation</p>
+                    </a>
+                    <a href="#!" class="d-flex align-items-center me-3 mb-2">
+                      <i class="fas fa-share me-2"></i>
+                      <p class="mb-0  text-success ">Personalization</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="card-footer py-3 border-0" style="box-shadow:1px 1px 2px black, 0 0 25px #000000, 0 0 5px #000306 ">
+                  <div class="d-flex flex-column w-100 ">
+                    <div class="chat-log mb-3" id="chat-log" style="height: 200px; overflow-y: auto; background: #C7CCD9; border-radius: 15px; padding: 45px;">
+                      <!-- Chat messages will be displayed here -->
+                    </div>
+                    <div class="d-flex">
+                      <img class="rounded-circle shadow-1-strong me-3"
+                           src="/images/boy to.gif" alt="avatar" width="35"
+                           height="37" />
+                      <input class="form-control" id="user-input" placeholder="say something.." style="background: #ffffff;border-radius: 15px  ;">
+                      <button id="send-button" type="button" class="btn  ms-2">
+                        <i class='bx bx-send icon'></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  <!-- chatbot -->
+
+
+
+
+    <!-- Pricing -->
+    <section id="pricing">
+      <div class="container">
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+          <h2 class="display-4 fw-normal">A Plan for Every Project Needs</h2>
+          <p class="fs-5 text-body-secondary">
+            Simple and affordable price plans for you and your business.
+          </p>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <div class="col ">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3 free " >
+                <h4 class="my-0 fw-normal">Static Website</h4>
+              </div>
+              <div class="card-body ">
+                <h1 class="card-title pricing-card-title">
+                  ₹0<small class="text-body-secondary fw-light">/1Mo</small>
+                </h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Professional Portfolio</li>
+                  <li>Stardard Design</li>
+                </ul>
+                <button type="button" href="https://www.linkedin.com/in/boopathy-e-666549282/" class="w-100 btn btn-lg btn-outline-dark">
+                  Sign up for free
+                </button> 
+              </div>
+            </div>
+          </div>
+          <div class="col  ">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3 ">
+                <h4 class="my-0 fw-normal">UI/UX</h4>
+              </div>
+              <div class="card-body silver">
+                <h1 class="card-title pricing-card-title">
+                  ₹1,500<small class="text-body-secondary fw-light">/1yr</small>
+                </h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Update Theme</li>
+                  <li>Update Icons & DP</li>
+                  <li>Update Blogs</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-dark">
+                  Get started
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col ">
+            <div class="card mb-4 rounded-3 shadow-sm border-dark ">
+              <div class="card-header py-3 text-bg-dark border-white ">
+                <h4 class="my-0 fw-normal">Dynamic Website</h4>
+              </div>
+              <div class="card-body gold">
+                <h1 class="card-title pricing-card-title">
+                  ₹15,000<small class="text-body-secondary fw-light"
+                    >/1yr</small
+                  >
+                </h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Pirority Listing</li>
+                  <li>Unique Design</li>
+                  <li>Domain Name & Hosting 1year</li>
+                </ul>
+                <a href="https://www.linkedin.com/in/boopathy-e-666549282/"><button  type="button" class="w-100 btn btn-lg btn-dark ct">
+                  Contact us
+                </button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- dot -->
+
+    <!-- Touch -->
+
+    <div class="touch" id="Get" >
+      <video autoplay muted loop>
+        <source
+          src="https://mdbootstrap.com/img/video/Sail-Away.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <h2>Get In Touch</h2>
+    </div>
+    <figure class="text-center">
+      <blockquote class="blockquote">
+        <p>
+          "A user interface is like a joke. If you have to explain it, it's not
+          that good."
+        </p>
+      </blockquote>
+      <figcaption class="blockquote-footer">
+        Created By  <cite title="Source Title">Bpy's Creation</cite> <i class="flag flag-india"></i>
+      </figcaption>
+    </figure>
+
+    <!-- Footer -->
+    
+    <section id="contact" class="gradient-background">
+     
+      <div class="container">
+         <div class="text-center  ">
+        <!-- Grid container -->
+        <div class="containerss">
+          <!-- Section: Social media -->
+          <section class="mb-5">
+            <!-- Facebook -->
+            <a
+              data-mdb-ripple-init
+              class="btn  m-6"
+              href="https://meta.com"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-meta" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8.217 5.243C9.145 3.988 10.171 3 11.483 3 13.96 3 16 6.153 16.001 9.907c0 2.29-.986 3.725-2.757 3.725-1.543 0-2.395-.866-3.924-3.424l-.667-1.123-.118-.197a55 55 0 0 0-.53-.877l-1.178 2.08c-1.673 2.925-2.615 3.541-3.923 3.541C1.086 13.632 0 12.217 0 9.973 0 6.388 1.995 3 4.598 3q.477-.001.924.122c.31.086.611.22.913.407.577.359 1.154.915 1.782 1.714m1.516 2.224q-.378-.614-.727-1.133L9 6.326c.845-1.305 1.543-1.954 2.372-1.954 1.723 0 3.102 2.537 3.102 5.653 0 1.188-.39 1.877-1.195 1.877-.773 0-1.142-.51-2.61-2.87zM4.846 4.756c.725.1 1.385.634 2.34 2.001A212 212 0 0 0 5.551 9.3c-1.357 2.126-1.826 2.603-2.581 2.603-.777 0-1.24-.682-1.24-1.9 0-2.602 1.298-5.264 2.846-5.264q.136 0 .27.018Z"/>
+              </svg>
+            </a>
+      
+            <!-- Twitter -->
+            <a
+              data-mdb-ripple-init
+              class="btn m-6"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+              </svg>
+            </a>
+      
+            <!-- Google -->
+            <a
+              data-mdb-ripple-init
+              class="btn  m-6"
+              href="https://mail.google.com/mail/u/0/#inbox"
+              role="button"
+              data-mdb-ripple-color="dark"
+              >
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-google" viewBox="0 0 16 16">
+                <path d="M15.545 6.558a9.4 9.4 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.7 7.7 0 0 1 5.352 2.082l-2.284 2.284A4.35 4.35 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.8 4.8 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.7 3.7 0 0 0 1.599-2.431H8v-3.08z"/>
+              </svg>
+            </a>
+      
+            <!-- Instagram -->
+            <a
+              data-mdb-ripple-init
+              class="btn  m-6"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+              </svg>
+            </a>
+      
+            <!-- Linkedin -->
+            <a
+              data-mdb-ripple-init
+              class="btn  m-6"
+              href="https://www.linkedin.com/in/boopathy-e-666549282/"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+              </svg>
+            </a>
+            <!-- Github -->
+            <a
+              data-mdb-ripple-init
+              class="btn m-6"
+              href="https://github.com/Boopathy-416"
+              role="button"
+              data-mdb-ripple-color="dark"
+              >  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+              </svg>
+            </a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+      </div>
+        <footer
+          class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 mt-5 border-top"
+        >
+          <div class="col mb-3">
+            <p class="text-body-secondary">© Bpy Creation 2024</p>
+          </div>
+
+          <div class="col mb-3"></div>
+
+          <div class="col mb-3">
+            <h5>General Information</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >Business</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >Features</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="https://www.linkedin.com/in/boopathy-e-666549282/" class="nav-link p-0 text-body-secondary">About</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col mb-3">
+            <h5>Technical Requirements</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >Platform and Hosting</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >Functionality</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >Legal & Compliance</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >Privacy & Security</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >Competitors</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col mb-3">
+            <h5>SEO and Marketing</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >Search Engine Optimization (SEO)</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >Marketing and Analytics</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >Timeline and Budget</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >Maintenance and Updates</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="https://www.linkedin.com/in/boopathy-e-666549282/" class="nav-link p-0 text-body-secondary"
+                  >Contact Details</a
+                >
+              </li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </section>
+<!-- trail  -->
+
+
+  <!-- add -->
+
+  <a href="http://web.whatsapp.com/">
+    <img class="add" src="/images/whatsapp.svg" alt="no image" width="100px"   height="50px" >
+    </a>
+    <a href="#chatbot">
+      <img class="add ios " src="/images/humanoid-robot-icon.svg" alt="no image" width="100px"   height="50px" >
+      </a>
+   
+
+
+
+<!-- testing toogle -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="Action.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
